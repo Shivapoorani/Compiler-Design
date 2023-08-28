@@ -14,10 +14,7 @@ Production grammar[MAX_PRODUCTIONS];
 int numProductions = 0;
 
 bool isAmbiguous(const char *input) {
-    // This function should be expanded to handle actual ambiguity checking logic
-    // such as generating parse trees and analyzing their structure.
-    // Here, we just return true for demonstration purposes.
-    return true;
+   return true;
 }
 
 int main() {
