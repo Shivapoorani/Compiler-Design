@@ -6,7 +6,6 @@ char ip_sym[15],stack[15]; int ip_ptr=0,st_ptr=0,len,i; char temp[2],temp2[2]; c
 void check(); 
 int main()
 {
-//clrscr();
 printf("\n\t\t SHIFT REDUCE PARSER\n"); printf("\n GRAMMER\n");
 printf("\n E->E+E\n E->E/E"); printf("\n E->E*E\n E->a/b"); printf("\n enter the input symbol:\t"); gets(ip_sym);
 printf("\n\t stack implementation table"); printf("\n stack \t\t input symbol\t\t action");
