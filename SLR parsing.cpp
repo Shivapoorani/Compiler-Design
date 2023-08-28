@@ -119,7 +119,6 @@ void canonical(int l)
         moreprod();
         for(j=0;j<ns;j++)
         {
-            //if ( memcmp(&I[ns],&I[j],sizeof(struct states))==1 )
             if( compstruct(I[ns],I[j])==1 )
             {
                 I[ns].lhs[0]=NULL;
@@ -222,7 +221,6 @@ int main()
 
     printf("\n\n\t\tPRESS ANY KEY FOR DFA TABLE");
 
-    //clrscr();
 
     printf("\t\t\tDFA TABLE IS AS FOLLOWS\n\n\n");
     for(i=0;i<ns;i++)
